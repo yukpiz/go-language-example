@@ -8,5 +8,7 @@ import (
 
 func main() {
 	ja := language.Japanese
-	fmt.Printf("%+v\n", ja.Raw())
+	en := language.AmericanEnglish
+	fmt.Printf("%+v\n", ja)
+	fmt.Printf("%+v\n", en)
 }
