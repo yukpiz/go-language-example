@@ -11,4 +11,6 @@ func main() {
 	en := language.AmericanEnglish
 	fmt.Printf("%+v\n", ja)
 	fmt.Printf("%+v\n", en)
+	fmt.Printf("%d\n", ja)
+	fmt.Printf("%d\n", en)
 }
